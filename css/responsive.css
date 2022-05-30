@@ -180,6 +180,11 @@
         margin: 0 auto;
     }
 
+    /* Styling newsletter section */
+    .s-newsletter {
+        padding: 5.2rem 0;
+    }
+
     /* Styling footer */
     
     footer main {
