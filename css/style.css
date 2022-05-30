@@ -1,0 +1,359 @@
+/* Style header */
+
+header {
+    width: 100%;
+    background: var(--purple);
+    height: 8.8rem;    
+    display: flex;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header .menu-mobile {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+    margin-right: 3.2rem;
+}
+
+header nav li {
+    margin-right: 3.2rem;
+}
+
+header nav li:last-child {
+    margin-right: 0;
+}
+
+header nav .btn-primary{
+    padding: 1rem 3.4rem;
+}
+
+/* Style section hero */
+
+.s-hero {
+    padding: 7.2rem 0;
+}
+
+.s-hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s-hero .text {
+    width: 100%;
+    max-width: 64rem;    
+}
+
+.s-hero .text h1 {
+    margin-bottom: 2rem;
+}
+
+.s-hero .text p {
+    margin-bottom: 5.6rem;
+    max-width: 48.8rem;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--text);
+}
+
+.s-hero .text .btn-primary {
+    padding: 2rem 4rem;
+}
+
+.s-hero .image {
+    width: 100%;
+    max-width: 48rem;
+    height: 49.6rem;
+    background-color: var(--light-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Style section featured cards */
+
+.s-cards-featured {
+    background: var(--purple);
+    padding-top: 10.4rem;
+    padding-bottom: 12rem;
+}
+
+.s-cards-featured .main-area {
+    border-bottom: 1px solid var(--yellow);
+    padding-bottom: 12.5rem;
+}
+
+.s-cards-featured .title{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.s-cards-featured .title.center {
+    
+    align-items: center;
+}
+
+.s-cards-featured .main-area .title p {
+    margin-top: 0.8rem;
+    margin-bottom: 8rem;
+}
+
+.s-cards-featured p {
+    color: var(--yellow);
+    
+
+}
+
+.s-cards-featured .all-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-cards-featured .all-cards .card {
+    width: 100%;
+    max-width: 38.4rem;
+    height: 38.2rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6.4rem
+    ;
+
+}
+
+.s-cards-featured .all-cards .card.white {
+    background: white;
+} 
+
+.s-cards-featured .all-cards .card.white h3{
+    color: var(--purple);
+}
+
+.s-cards-featured .all-cards .card.white p {
+    color: var(--text);
+} 
+
+.s-cards-featured .all-cards .card .info {
+    margin-top: 4rem;
+    max-width: 28.8rem;
+}
+
+.s-cards-featured .all-cards .card .info h3 {
+    text-align: center;
+}
+
+.s-cards-featured .all-cards .card .info p {
+    text-align: center;
+    margin-top: 0.8rem;
+    line-height: 2.45rem;
+}
+
+/* Style section small thumbs */
+
+.s-cards-featured .second-area {
+    margin-top: 11.2rem
+}
+
+.s-cards-featured .second-area .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.4rem;
+}
+.s-cards-featured .second-area .top p{
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 0.8rem;
+}
+
+.s-cards-featured .second-area .all-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+}
+
+.s-cards-featured .second-area .all-images .image {
+    width: 17.6rem;
+    height: 11.2rem;
+    background: var(--dark-purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.s-cards-featured .second-area .all-images .image img{
+    color: aqua;
+}
+
+/* Newsletter */
+
+.s-newsletter {
+    background: var(--yellow);
+    padding-top: 15.2rem;
+    padding-bottom: 13.2rem;
+    
+}
+
+.s-newsletter .container {
+    width: 100%;
+    max-width: 74rem ;
+}
+
+.s-newsletter .s-newsletter-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s-newsletter .s-newsletter-content h2 {
+    color: var(--purple);
+    margin-bottom: 4rem;
+}
+
+.s-newsletter .s-newsletter-content p {
+    color: white;
+    margin-bottom: 4rem;
+    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.s-newsletter .s-newsletter-content .btn-cta {
+    background: var(--purple);
+    color: white;
+}
+
+.s-newsletter .s-newsletter-content .btn-cta {
+    padding: 2rem 4rem;
+}
+
+/* Styling footer section */
+
+footer {
+    background: var(--purple);
+    padding-top: 8.8rem;
+    padding-bottom: 3.9rem;
+}
+
+footer main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--yellow);
+    padding-bottom: 7.2rem;
+}
+
+footer main .left-area {
+    width: 100%;
+    max-width: 31.1rem;
+}
+
+footer main nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 77.7rem;
+}
+
+footer main .left-area p {
+    color: white;
+    font-size: 1.1remx;
+    line-height: 150%;
+    margin-top: 3.5rem;
+    
+}
+
+footer main nav .item h5 {
+    margin-bottom: 2.4rem;
+    font-size: 1.6rem;
+    line-height: 125%;
+    font-weight: 600;
+    color: var(--yellow);
+}
+
+footer main nav .item ul li {
+    margin-bottom: 3.2rem;
+}
+footer main nav .item ul li:last-child {
+    margin-bottom: 0;
+}
+
+footer main nav .item ul li a{
+    color: white;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 105%;
+    font-family: 'Sora', sans-serif;
+   
+}
+
+footer main nav .item ul li a:hover {
+    color: var(--yellow);
+}
+
+footer main nav .item:last-child ul li a {
+    display: flex;
+    align-items: center;
+}
+
+footer main nav .item:last-child ul li a span {
+    margin-left: 0.8rem;
+}
+
+footer .copy {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+
+}
+
+footer .copy p {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+footer .copy strong {
+    font-family: 'Sora', sans-serif;
+    color: var(--yellow);
+}
+
+footer .copy .group-copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .copy .group-copy span {
+    font-family: 'Sora', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-right: 0.8rem;
+}
+
+
+
